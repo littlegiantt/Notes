@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NotesApp" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ColorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/ColorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/ColorAccent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="ThemeOverlay.search" parent="Theme.NotesApp">
+
+        <!-- Text color -->
+        <item name="android:editTextColor">@color/ColorAccent</item>
+        <!-- Hint text color -->
+        <item name="android:textColorHint">@color/ColorAccent</item>
+
+    </style>
+</resources>

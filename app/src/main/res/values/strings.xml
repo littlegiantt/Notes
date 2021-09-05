@@ -1,0 +1,15 @@
+<resources>
+    <!--Default-->
+    <string name="app_name">Notes</string>
+    <!--CreateNoteFragment-->
+    <string name="notes">My Notes</string>
+    <string name="search">Search your notes</string>
+    <string name="notes_title">Notes Title</string>
+    <string name="notes_subtitle">Notes Subtitle</string>
+    <string name="notes_desc">Enter Note Here</string>
+    <string name="web_url">Enter Web Url</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_color">Pick Color</string>
+    <string name="storage_permission">This app needs access to your storage</string>
+</resources>
